@@ -59,7 +59,7 @@ module "eks" {
   # To add more nodes to the cluster, update the desired capacity.
   node_groups = {
     default = {
-      instance_type = "t2.nano"
+      instance_type = "t2.small"
       additional_tags = {
         Terraform = "true"
         Environment = "dev"
