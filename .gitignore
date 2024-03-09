@@ -1,0 +1,6 @@
+/.idea/
+/terraform/.terraform/
+/terraform/.terraform.lock.hcl
+/terraform/kubeconfig_my-eks-cluster
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
